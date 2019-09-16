@@ -17,3 +17,9 @@ based on this two cases you can test the UI and the REST endpoints but the most 
 
 # Required 
 A running tests, code of your implementation can be any E2E tool that you use, since this project need to be pushed to your github account please includes the steps to run your tests.
+
+# Evaluation is based on 
+- Implementation of the E2E
+- Write E2E test cases
+- General coding skills
+
