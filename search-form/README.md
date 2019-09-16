@@ -1,5 +1,4 @@
 
-# Go to ../RUN.MD for complete instructions
 ## Available Scripts
 
 In the project directory, you can run:
