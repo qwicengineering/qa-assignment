@@ -1,6 +1,6 @@
 # Quality Assurance Assigment
 
-In this assigment you need to implement a E2E testing of your taste, please take your time, you have 1.5 week to complete this assigment, feel free to request more time, please give your best shot on this task.
+In this assigment you need to implement a E2E testing of your taste, please take your time, we think this assigment could take like 4 hours, feel free to ask questions if something is not clear, please give your best shot on this task.
 
 ## How to run the project
 
