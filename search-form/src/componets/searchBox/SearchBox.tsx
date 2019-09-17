@@ -50,7 +50,7 @@ const SearchBox = function () {
     const validForm = !state.brand && !state.model && !state.keyword;
     return (
         <React.Fragment>
-            {isLoading && (<form onSubmit={(e) => onSubmit(e)}>
+            <form onSubmit={(e) => onSubmit(e)}>
                 <FormBox borderTop {...borderColor}>
                     <div className="searchBoxTitle">Buy a car</div>
                 </FormBox>
@@ -69,7 +69,7 @@ const SearchBox = function () {
                 <FormBox borderBottom {...borderColor}>
                     <Button selector="B" disabled={validForm}>{'Search Cars'}</Button>
                 </FormBox>
-            </form>)}
+            </form>
         </React.Fragment>
     )
 }
