@@ -19,7 +19,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        cd search-form && npm install
-        cd search-form && npm run build:frontend --if-present
+        npm install
       env:
         CI: true
