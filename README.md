@@ -1,25 +1,30 @@
 # Quality Assurance Assigment
 
-In this assigment you need to implement a E2E testing of your taste, please take your time, we think this assigment could take like 4 hours, feel free to ask questions if something is not clear, please give your best shot on this task.
+In this assigment you need to implement a E2E testing of your taste, please take your time, we think this assigment should not take more than 4 hours, feel free to ask questions if something is not clear, please give your best shot on this task.
 
 ## How to run the project
 
 Please download the project to your computer, go to the search-form directory and run the following commands
-- run: `npm install`
-- after the download of all the Node modules run: `npm run start`
-- visit: localhost:3000
+- checkout: `git clone https://github.com/qwicengineering/qa-assignment.git`
+- goto dir: `cd search-form`
+- install dependencies: `npm install`
+- start application: `npm run start`
+- visit: http://localhost:3000
 
-## Steps to be tested:
-- As end user, I want to select brand and model to submit the form.
-- As end user, I wat to select brand and model and enter a keyword text.
+## Minimum steps to be tested:
+- as an end user, I want to select a brand and a model to submit the form.
+- as an end user, I want to select a brand, model and enter a keyword text before submitting the form.
 
-based on this two cases you can test the UI and the REST endpoints but the most important part is the integration, please give us your best shot, this can be all the cases that you find useful to demostrate that the project is safe to release.
+Based on these two cases (or more) you may test the UI and the REST endpoint (`/cars`) but the most important part is the end to end automation tests. Please give us your best shot, this can be all the cases that you find useful to demostrate that the project is safe to release.
 
 # Required 
-A running tests, code of your implementation can be any E2E tool that you use, since this project need to be pushed to your github account please includes the steps to run your tests.
+- running test cases.
+- feel free to use any end to end framework to implement the test cases.
+- please includes the steps to run your tests in your readme before you share your github project link.
 
 # Evaluation is based on 
-- Implementation of the E2E
-- Write E2E test cases
-- General coding skills
+- implementation and quality of the automation tests
+- general coding skills
 
+# Style guide (Optional)
+- you may follow our [qwic style guide](https://github.com/qwicengineering/styleguides)
